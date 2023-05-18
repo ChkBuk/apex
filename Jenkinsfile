@@ -13,7 +13,7 @@ pipeline {
          }
          stage('Build') {
              steps {                  
-				  bat 'gradlew.bat clean build'
+                  sh './gradlew clean build'
              }              
              post {
                  always {
