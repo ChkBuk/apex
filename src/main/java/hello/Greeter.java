@@ -1,6 +1,6 @@
 package hello;
 
-//testrr
+//test
 
 public class Greeter {
 
